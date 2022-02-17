@@ -3,9 +3,11 @@ import VueRouter from "vue-router";
 import Home from "../components/Home.vue";
 import Login from "../components/Login.vue";
 import TabelDaftar from "../components/TabelDaftar.vue";
-import Tabel from "../components/Tabel.vue";
+// import Tabel from "../components/Tabel.vue";
 import Register from "../components/Register.vue";
 import Form from "../components/Form.vue";
+import Add from "../components/Add.vue";
+import Edit from "../components/Edit.vue";
 
 Vue.use(VueRouter);
 
@@ -25,11 +27,11 @@ const routes = [
     name: "TabelDaftar",
     component: TabelDaftar,
   },
-  {
-    path: "/tabel",
-    name: "Tabel",
-    component: Tabel,
-  },
+  // {
+  //   path: "/tabel",
+  //   name: "Tabel",
+  //   component: Tabel,
+  // },
   {
     path: "/form",
     name: "Form",
@@ -39,6 +41,16 @@ const routes = [
     path: "/register",
     name: "Register",
     component: Register,
+  },
+  {
+    path: "/add",
+    name: "Add",
+    component: Add,
+  },
+  {
+    path: "/edit",
+    name: "Edit",
+    component: Edit,
   },
 ];
 

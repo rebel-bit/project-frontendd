@@ -46,6 +46,7 @@
                     value="Submit"
                     class="btn"
                     style="border: 1px solid grey"
+                    href="/form"
                   />
                 </div>
               </form>
@@ -142,7 +143,7 @@ form {
   box-shadow: 0 0 5px rgba(0, 80, 80, 0.4);
   border-radius: 4px;
 }
-.btn {
+.btnn {
   transition: all 0.5s ease;
   width: 70%;
   border-radius: 30px;
